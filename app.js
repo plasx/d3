@@ -1,5 +1,4 @@
 d3.json('https://www.quandl.com/api/v3/datasets/YAHOO/INDEX_DJI.json?auth_token=24rBLFWEzMszg2McQ3wz&start_date=2015-02-10', function (data) {
-	alert(data.dataset.data[0][3]);
 	var canvas = d3.select("body").append("svg")
 		.attr("width", 50000)
 		.attr("height", 8000)
